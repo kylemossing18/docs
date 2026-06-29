@@ -1,0 +1,72 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "Leadapp",
+  "colors": {
+    "primary": "#ef7025",
+    "light": "#eec9bc",
+    "dark": "#4fa1ab"
+  },
+  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@leadapp.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Go to App",
+      "href": "https://app.leadapp.com"
+    }
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Aan de slag",
+        "pages": [
+          "introductie",
+          "quickstart",
+          "whats-app-nummer-aanmaken",
+          "whatsapp-agent-configuratie",
+          "email-en-calendar-integratie",
+          "leadbronnen-koppelen"
+        ]
+      },
+      {
+        "group": "Jouw sidebar",
+        "pages": [
+          "overzicht",
+          "gesprekken",
+          "aanvragen",
+          "afspraken",
+          "contacten"
+        ]
+      },
+      {
+        "group": "Instellingen",
+        "pages": [
+          "account",
+          "afspraken-1",
+          "organisatie",
+          "aanvragen-1",
+          "ai-assistent",
+          "abonnement"
+        ]
+      },
+      {
+        "group": "Trust & Privacy",
+        "pages": []
+      }
+    ]
+  },
+  "footer": {
+    "socials": {}
+  },
+  "description": "De stille kracht achter elk renovatiebedrijf dat groeit. Binnen 2 minuten reageren op elke aanvraag, via WhatsApp, automatisch."
+}

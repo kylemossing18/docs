@@ -1,0 +1,89 @@
+{
+  "projectType": "saas",
+  "projectName": "Leadapp",
+  "projectDescription": "Leadapp is a SaaS platform that helps businesses capture, manage, and convert leads through an intuitive dashboard and workflow tools.",
+  "theme": "almond",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "introduction",
+          "quickstart",
+          "account-setup"
+        ]
+      },
+      {
+        "group": "Core Concepts",
+        "pages": [
+          "concepts/leads",
+          "concepts/pipelines",
+          "concepts/contacts",
+          "concepts/workspaces"
+        ]
+      },
+      {
+        "group": "Capturing Leads",
+        "pages": [
+          "capturing/forms",
+          "capturing/web-embed",
+          "capturing/import"
+        ]
+      },
+      {
+        "group": "Managing Leads",
+        "pages": [
+          "managing/pipeline-view",
+          "managing/lead-details",
+          "managing/tags-and-filters",
+          "managing/assignments"
+        ]
+      },
+      {
+        "group": "Automations",
+        "pages": [
+          "automations/overview",
+          "automations/triggers",
+          "automations/notifications"
+        ]
+      },
+      {
+        "group": "Integrations",
+        "pages": [
+          "integrations/overview",
+          "integrations/email",
+          "integrations/zapier"
+        ]
+      },
+      {
+        "group": "Settings & Administration",
+        "pages": [
+          "settings/team",
+          "settings/billing",
+          "settings/account"
+        ]
+      },
+      {
+        "group": "Help",
+        "pages": [
+          "faq",
+          "troubleshooting"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Lead capture via customizable forms and web embeds",
+    "Visual pipeline board for managing lead stages",
+    "Contact management and lead detail tracking",
+    "Automated follow-up notifications and triggers",
+    "Team workspace with role-based access",
+    "CSV import and third-party integrations",
+    "Tags, filters, and lead assignment tools",
+    "Billing and subscription management"
+  ],
+  "publicApiSurface": []
+}
